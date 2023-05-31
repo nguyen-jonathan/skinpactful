@@ -1,33 +1,18 @@
 import React from 'react';
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-import HomePage from '../HomePage/HomePage';
-import AppointmentForm from '../AppointmentForm/AppointmentForm';
-// import './App.css';
+// import HomePage from '../HomePage/HomePage';
+import Navigation from '../NavigationBar/NavigationBar';
+// import AppointmentForm from '../AppointmentForm/AppointmentForm';
+import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <Router>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">
-              <h2>Home</h2>
-            </Link>
-          </li>
-          <li>
-            <Link to="/appointment">
-              <h2>Appointment</h2>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+    <div className="app">
+      <Navigation />
 
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/appointment" element={<AppointmentForm />} />
-      </Routes>
-    </Router>
+      {/* <HomePage /> */}
+      {/* <h1>Hello</h1> */}
+    </div>
   );
-}
+};
 
 export default App;
