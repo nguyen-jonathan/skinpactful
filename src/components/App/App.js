@@ -1,17 +1,18 @@
 import React from 'react';
-import AppointmentForm from '../AppointmentForm/AppointmentForm';
+// import HomePage from '../HomePage/HomePage';
+import Navigation from '../NavigationBar/NavigationBar';
+// import AppointmentForm from '../AppointmentForm/AppointmentForm';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Skinpactful</p>
-      </header>
-      <h1>Appointment Form</h1>
-      <AppointmentForm />
+    <div className="app">
+      <Navigation />
+
+      {/* <HomePage /> */}
+      {/* <h1>Hello</h1> */}
     </div>
   );
-}
+};
 
 export default App;
