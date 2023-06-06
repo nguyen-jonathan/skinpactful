@@ -35,15 +35,17 @@ const NavigationBar = () => {
   ];
   return (
     <nav>
-      <div className="nav-logo-container">
-        <img src={Logo} alt="" />
-      </div>
-      <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+      <div className="navbar-container">
+        <div className="nav-logo-container">
+          <img src={Logo} alt="" />
+        </div>
+        <div className="navbar-links-container">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
 
-        <button className="primary-button">Schedule Now</button>
+          <button className="primary-button">Schedule Now</button>
+        </div>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
