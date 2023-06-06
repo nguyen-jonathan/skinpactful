@@ -1,5 +1,5 @@
 import React from 'react';
-// import HomePage from '../HomePage/HomePage';
+import HomePage from '../HomePage/HomePage';
 import Navigation from '../NavigationBar/NavigationBar';
 // import AppointmentForm from '../AppointmentForm/AppointmentForm';
 import './App.css';
@@ -9,7 +9,7 @@ const App = () => {
     <div className="app">
       <Navigation />
 
-      {/* <HomePage /> */}
+      <HomePage />
       {/* <h1>Hello</h1> */}
     </div>
   );
