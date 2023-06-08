@@ -1,9 +1,11 @@
 import React from 'react';
 import {BsFillPlayCircleFill} from 'react-icons/bs';
+import NavigationBar from '../NavigationBar/NavigationBar';
 
-const About = () => {
+const AboutPage = () => {
   return (
     <div className="about-section-container">
+      <NavigationBar />
       <div className="about-background-image-container">
         {/* <img src={} alt="" /> */}
       </div>
@@ -45,4 +47,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutPage;

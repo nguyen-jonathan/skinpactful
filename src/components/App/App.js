@@ -1,14 +1,17 @@
 import React from 'react';
 import HomePage from '../HomePage/HomePage';
 import About from '../About/About';
-import Navigation from '../NavigationBar/NavigationBar';
+import NavigationBar from '../NavigationBar/NavigationBar';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import HomePage from '../HomePage/HomePage';
+// import AboutPage from '../AboutPage/AboutPage';
 // import AppointmentForm from '../AppointmentForm/AppointmentForm';
 import './App.css';
 
 const App = () => {
   return (
     <div className="app">
-      <Navigation />
+      <NavigationBar />
 
       <HomePage />
       <About />
