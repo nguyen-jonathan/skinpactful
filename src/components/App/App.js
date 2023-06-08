@@ -1,16 +1,20 @@
 import React from 'react';
+import HomePage from '../HomePage/HomePage';
+import About from '../About/About';
+import NavigationBar from '../NavigationBar/NavigationBar';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import HomePage from '../HomePage/HomePage';
-import Navigation from '../NavigationBar/NavigationBar';
+// import AboutPage from '../AboutPage/AboutPage';
 // import AppointmentForm from '../AppointmentForm/AppointmentForm';
 import './App.css';
 
 const App = () => {
   return (
     <div className="app">
-      <Navigation />
+      <NavigationBar />
 
-      {/* <HomePage /> */}
-      {/* <h1>Hello</h1> */}
+      <HomePage />
+      <About />
     </div>
   );
 };
