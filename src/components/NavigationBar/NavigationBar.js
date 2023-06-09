@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Logo from './skinpactful_logo.png';
+import Logo from './skinpactful_logo_white.png';
 // import {BsCart2} from 'react-icons/bs';
 import {IconContext} from 'react-icons';
 import {HiOutlineBars3} from 'react-icons/hi2';
@@ -52,7 +52,7 @@ const NavigationBar = () => {
         </div>
       </div>
       <div className="navbar-menu-container">
-        <IconContext.Provider value={{color: 'white', size: '50px'}}>
+        <IconContext.Provider value={{color: 'black', size: '50px'}}>
           <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
         </IconContext.Provider>
       </div>

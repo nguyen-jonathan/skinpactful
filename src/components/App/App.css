@@ -26,7 +26,7 @@ body {
 }
 
 body {
-  background-color: #000000;
+  background-color: #f9f6f2;
 }
 
 nav {
@@ -50,13 +50,14 @@ nav {
 .navbar-links-container a {
   margin-right: 3rem;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 1.1rem;
   font-weight: 600;
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
-  background-color: white;
+  background-color: rgb(255, 187, 0);
+  color: #ffffff;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -100,14 +101,14 @@ nav {
 }
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
-  color: #ffffff;
+  color: #000000;
   /* line-height: 5rem; */
   max-width: 600px;
 }
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;
-  color: #ffffff;
+  color: #000000;
   margin: 1.5rem 0rem;
 }
 .secondary-button {
@@ -119,7 +120,7 @@ nav {
   font-size: 1.1rem;
   cursor: pointer;
   font-weight: 600;
-  color: white;
+  color: rgb(0, 0, 0);
   transition: 0.2s;
   display: flex;
   align-items: center;
