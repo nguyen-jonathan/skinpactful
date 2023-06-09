@@ -11,14 +11,13 @@ const HomePage = () => {
           {/* <img src={BannerBackground} alt="" /> */}
         </div>
         <div className="home-text-section">
-          <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
-          </h1>
+          <h1 className="primary-heading">Motto to add here</h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+            give me description what you Skinpactful and this service is about
           </p>
-          <button className="secondary-button">Order Now</button>
+          <button className="secondary-button">
+            Schedule a Free Consultation
+          </button>
         </div>
         <div className="home-image-section">
           {/* <img src={BannerImage} alt="" /> */}
