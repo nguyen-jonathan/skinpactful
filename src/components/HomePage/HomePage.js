@@ -1,4 +1,5 @@
 import React from 'react';
+import HomeBG from './wash-face.jpeg';
 // import './HomePage.css';
 // import NavigationBar from '../NavigationBar/NavigationBar';
 
@@ -8,7 +9,7 @@ const HomePage = () => {
       {/* <NavigationBar /> */}
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
-          {/* <img src={BannerBackground} alt="" /> */}
+          {/* <img src={HomeBG} alt="" /> */}
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">Motto to add here</h1>
@@ -20,7 +21,7 @@ const HomePage = () => {
           </button>
         </div>
         <div className="home-image-section">
-          {/* <img src={BannerImage} alt="" /> */}
+          <img src={HomeBG} alt="" />
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Profile from './thomas.jpg';
 // import {BsFillPlayCircleFill} from 'react-icons/bs';
 
 const About = () => {
@@ -8,7 +9,7 @@ const About = () => {
         {/* <img src={} alt="" /> */}
       </div>
       <div className="about-section-image-container">
-        {/* <img src={} alt="" /> */}
+        <img src={Profile} alt="" />
       </div>
       <div className="about-section-text-container">
         <p className="primary-subheading">About Me</p>
