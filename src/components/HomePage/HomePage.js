@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeBG from './wash-face.jpeg';
+import {Link} from 'react-router-dom';
 // import './HomePage.css';
 // import NavigationBar from '../NavigationBar/NavigationBar';
 
@@ -16,9 +17,14 @@ const HomePage = () => {
           <p className="primary-text">
             give me description what you Skinpactful and this service is about
           </p>
-          <button className="secondary-button">
-            Schedule a Free Consultation
-          </button>
+          <Link
+            to="https://calendly.com/inaniwin/30min"
+            target="_blank"
+            rel="noopener noreferrer">
+            <button className="secondary-button">
+              Schedule a Free Consultation
+            </button>
+          </Link>
         </div>
         <div className="home-image-section">
           <img src={HomeBG} alt="" />

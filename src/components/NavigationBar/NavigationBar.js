@@ -48,7 +48,12 @@ const NavigationBar = () => {
           <Link to="/about">About</Link>
           <a href="/contact">Contact</a>
 
-          <button className="primary-button">Schedule Now</button>
+          <Link
+            to="https://calendly.com/inaniwin/30min" //need to change to tommy's calender link
+            target="_blank"
+            rel="noopener noreferrer">
+            <button className="primary-button">Schedule Now</button>
+          </Link>
         </div>
       </div>
       <div className="navbar-menu-container">
