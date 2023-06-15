@@ -1,6 +1,8 @@
 import React from 'react';
-import {BsFillPlayCircleFill} from 'react-icons/bs';
+// import {BsFillPlayCircleFill} from 'react-icons/bs';
 import NavigationBar from '../NavigationBar/NavigationBar';
+import Profile from './thomas.jpg';
+import './AboutPage.css';
 
 const AboutPage = () => {
   return (
@@ -10,7 +12,7 @@ const AboutPage = () => {
         {/* <img src={} alt="" /> */}
       </div>
       <div className="about-section-image-container">
-        {/* <img src={} alt="" /> */}
+        <img src={Profile} alt="" />
       </div>
       <div className="about-section-text-container">
         <h1 className="primary-heading">Thomas Nguyen</h1>
@@ -36,12 +38,10 @@ const AboutPage = () => {
           believe listening to each other's story and having a real 1-on-1
           discussion is the best way to help you.
         </p>
-        <div className="about-buttons-container">
+        {/* <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
-          <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Watch Video
-          </button>
-        </div>
+          
+        </div> */}
       </div>
     </div>
   );

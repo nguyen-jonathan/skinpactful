@@ -1,5 +1,6 @@
 import React from 'react';
 import Profile from './thomas.jpg';
+import {Link} from 'react-router-dom';
 // import {BsFillPlayCircleFill} from 'react-icons/bs';
 
 const About = () => {
@@ -9,18 +10,21 @@ const About = () => {
         {/* <img src={} alt="" /> */}
       </div>
       <div className="about-section-image-container">
-        <img src={Profile} alt="" />
+        <img id="thomasProfile" src={Profile} alt="" />
       </div>
       <div className="about-section-text-container">
         <p className="primary-subheading">About Me</p>
         <h1 className="primary-heading">Thomas Nguyen</h1>
         <p className="primary-text">
-          Smaller description about you. I could use what you send me but you
-          decide. The learn more button will take you to another ABOUT YOU page
-          which this can be a long page.
+          My name is Thomas and I’m born and raised in Minnesotan. I strive to
+          take care of myself and always evolve in terms of my health. I like
+          watching movies and grabbing drinks with friends. I’m always open to
+          listening and giving a helping hand for those in need.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          <button className="secondary-button">
+            <Link to="/about">Learn More</Link>
+          </button>
           {/* <button className="watch-video-button">
             <BsFillPlayCircleFill /> Watch Video
           </button> */}

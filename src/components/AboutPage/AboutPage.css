@@ -8,11 +8,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-#thomasProfile {
-  width: 200px;
-  justify-content: center;
-  /* border: 2px solid red; */
-}
 .App {
   width: 85vw;
   max-width: 1900px;
@@ -145,7 +140,7 @@ nav {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: center; */
 }
 .about-background-image-container {
   position: absolute;
@@ -153,9 +148,6 @@ nav {
   z-index: -2;
 }
 .about-section-image-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex: 0.9;
   margin-right: 1rem;
 }
@@ -352,8 +344,10 @@ nav {
     justify-content: space-between;
     min-height: 90px;
   }
-  #thomasProfile {
-    width: 200px;
+  .about-section-container {
+    margin-top: 20rem;
+    position: relative;
+    display: flex;
     align-items: center;
     justify-content: space-between;
   }
@@ -380,11 +374,8 @@ nav {
   }
   .home-image-section,
   .about-section-image-container {
-    display: flex;
     width: 100%;
     max-width: 400px;
-    /* align-items: center; */
-    justify-content: center;
   }
   .primary-heading {
     text-align: center;

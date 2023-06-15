@@ -49,7 +49,7 @@ const NavigationBar = () => {
           <a href="/contact">Contact</a>
 
           <Link
-            to="https://calendly.com/inaniwin/30min" //need to change to tommy's calender link
+            to="https://calendly.com/skinpactful/consultation" //need to change to tommy's calender link
             target="_blank"
             rel="noopener noreferrer">
             <button className="primary-button">Schedule Now</button>
