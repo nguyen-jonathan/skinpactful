@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from './thomas.jpg';
+import Profile from './thomasnguyen.jpg';
 import {Link} from 'react-router-dom';
 // import {BsFillPlayCircleFill} from 'react-icons/bs';
 

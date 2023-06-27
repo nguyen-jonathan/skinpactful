@@ -9,42 +9,44 @@ img {
   height: auto;
 }
 #thomasProfile {
-  width: 200px;
+  width: 350px;
   justify-content: center;
   /* border: 2px solid red; */
+}
+#thomasAboutPage {
+  width: 350px;
+  justify-content: center;
 }
 .App {
   width: 85vw;
   max-width: 1900px;
   margin-top: 2rem;
-  /* margin: 0rem auto;
-  min-height: 100vh; */
-}
-body {
-  max-width: 100%;
-  overflow-x: hidden;
+  margin: 2rem auto;
   min-height: 100vh;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px;
 }
-
 body {
   background-color: #f9f6f2;
+  max-width: 100%;
+  overflow-x: hidden;
+  /* min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0; */
 }
-
 nav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   min-height: 90px;
 }
 .navbar-container {
   /* display: flex; */
   align-items: center;
   justify-content: center;
+  margin: auto;
+  /* padding-left: 10px; */
 }
 .navbar-menu-container {
   display: none;
@@ -60,6 +62,8 @@ nav {
   color: rgb(0, 0, 0);
   font-size: 1.1rem;
   font-weight: 600;
+  /* align-items: center; */
+  justify-content: center;
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
@@ -146,6 +150,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
+  /* justify-content: center; */
 }
 .about-background-image-container {
   position: absolute;
@@ -353,7 +359,12 @@ nav {
     min-height: 90px;
   }
   #thomasProfile {
-    width: 200px;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #thomasAboutPage {
+    width: 300px;
     align-items: center;
     justify-content: space-between;
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 // import {BsFillPlayCircleFill} from 'react-icons/bs';
 import NavigationBar from '../NavigationBar/NavigationBar';
-import Profile from './thomas.jpg';
+import Profile from './thomasnguyen.jpg';
 import './AboutPage.css';
 
 const AboutPage = () => {
@@ -11,11 +11,12 @@ const AboutPage = () => {
       <div className="about-background-image-container">
         {/* <img src={} alt="" /> */}
       </div>
-      <div className="about-section-image-container">
-        <img src={Profile} alt="" />
-      </div>
+
       <div className="about-section-text-container">
         <h1 className="primary-heading">Thomas Nguyen</h1>
+        <div className="about-section-image-container">
+          <img id="thomasAboutPage" src={Profile} alt="" />
+        </div>
         <p className="primary-text">
           Welcome to the first step to clear and healthy looking skin! My name
           is Thomas (32 years old) and I have been battling with adult acne for
