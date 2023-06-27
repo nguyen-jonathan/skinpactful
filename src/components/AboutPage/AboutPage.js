@@ -6,18 +6,19 @@ import './AboutPage.css';
 
 const AboutPage = () => {
   return (
-    <div className="about-section-container">
+    <div>
+      {/* <div className="about-section-container"> */}
       <NavigationBar />
-      <div className="about-background-image-container">
-        {/* <img src={} alt="" /> */}
-      </div>
+      {/* <div className="about-background-image-container">
+        <img src={} alt="" />
+      </div> */}
 
-      <div className="about-section-text-container">
-        <h1 className="primary-heading">Thomas Nguyen</h1>
-        <div className="about-section-image-container">
-          <img id="thomasAboutPage" src={Profile} alt="" />
-        </div>
-        <p className="primary-text">
+      <h1 className="primary-heading-page">Thomas Nguyen</h1>
+      <div className="aboutPage-section-image-container">
+        <img id="thomasAboutPage" src={Profile} alt="" />
+      </div>
+      <div className="aboutPage-section-text-container">
+        <p className="aboutPage-primary-text">
           Welcome to the first step to clear and healthy looking skin! My name
           is Thomas (32 years old) and I have been battling with adult acne for
           nearly 10 years. I would be insecure about going out in public and
@@ -31,7 +32,7 @@ const AboutPage = () => {
           friends, family and strangers would approach me complimenting me on my
           skin, which I couldn’t believe!
         </p>
-        <p className="primary-text">
+        <p className="aboutPage-primary-text">
           Now here we are, I want to help you do the same and share my
           experience and help discover what your skin needs. Saving you the
           trouble of years of fighting acne, damaging your skin and wasting
@@ -44,6 +45,7 @@ const AboutPage = () => {
           
         </div> */}
       </div>
+      {/* </div> */}
     </div>
   );
 };

@@ -16,7 +16,7 @@ const About = () => {
         <p className="primary-subheading">About Me</p>
         <h1 className="primary-heading">Thomas Nguyen</h1>
         <p className="primary-text">
-          My name is Thomas and I’m born and raised in Minnesotan. I strive to
+          My name is Thomas and I’m born and raised in Minnesota. I strive to
           take care of myself and always evolve in terms of my health. I like
           watching movies and grabbing drinks with friends. I’m always open to
           listening and giving a helping hand for those in need.

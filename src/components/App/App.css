@@ -20,8 +20,8 @@ img {
 .App {
   width: 85vw;
   max-width: 1900px;
-  margin-top: 2rem;
-  margin: 2rem auto;
+  /* margin-top: 2rem; */
+  margin: 0rem auto;
   min-height: 100vh;
 }
 body {
@@ -58,6 +58,7 @@ nav {
 }
 .navbar-links-container a {
   margin-right: 3rem;
+  margin-left: 3rem;
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-size: 1.1rem;
@@ -113,10 +114,24 @@ nav {
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #000000;
-  /* line-height: 5rem; */
+  line-height: 5rem;
   max-width: 600px;
 }
+.primary-heading-page {
+  text-align: center;
+  padding: 20px;
+  font-size: clamp(2rem, 5vw, 4rem);
+}
 .primary-text {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  max-width: 500px;
+  color: #000000;
+  margin: 1.5rem 0rem;
+}
+.aboutPage-primary-text {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;
   color: #000000;
@@ -150,8 +165,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-direction: column;
-  /* justify-content: center; */
 }
 .about-background-image-container {
   position: absolute;
@@ -162,13 +175,24 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 0.9;
-  margin-right: 1rem;
+  /* flex: 0.9; */
+  /* margin-right: 1rem; */
+}
+.aboutPage-section-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .about-section-text-container {
-  flex: 1;
+  /* flex: 1; */
   justify-content: center;
   display: flex;
+  flex-direction: column;
+}
+.aboutPage-section-text-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
   flex-direction: column;
 }
 .primary-subheading {
@@ -370,6 +394,7 @@ nav {
   }
   .nav-logo-container {
     max-width: 140px;
+    justify-content: center;
   }
   .navbar-links-container {
     display: none;
