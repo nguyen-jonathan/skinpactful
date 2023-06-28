@@ -1,6 +1,7 @@
 import React from 'react';
 // import {BsFillPlayCircleFill} from 'react-icons/bs';
 import NavigationBar from '../NavigationBar/NavigationBar';
+import Footer from '../Footer/Footer';
 import Profile from './thomasnguyen.jpg';
 import './AboutPage.css';
 
@@ -46,6 +47,8 @@ const AboutPage = () => {
         </div> */}
       </div>
       {/* </div> */}
+
+      <Footer />
     </div>
   );
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './components/App/App';
 import AboutPage from './components/AboutPage/AboutPage';
+import Contact from './components/Contact/Contact';
 import TermsConditions from './components/TermsConditions/TermsConditions';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
@@ -12,7 +13,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
-        <Route path="/contact" element={<AboutPage />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
         <Route path="/terms-conditions" element={<TermsConditions />}></Route>
       </Routes>
     </BrowserRouter>
