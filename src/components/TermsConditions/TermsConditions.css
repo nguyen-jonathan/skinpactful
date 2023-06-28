@@ -13,3 +13,11 @@
   color: #000000;
   margin: 10px;
 }
+.primary-subheading-termPage {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: #000000;
+  font-size: clamp(2rem, 5vw, 2rem);
+}

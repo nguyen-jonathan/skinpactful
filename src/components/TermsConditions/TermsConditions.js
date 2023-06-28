@@ -28,6 +28,22 @@ const TermsConditions = () => {
           currently taking and before implementing any recommendations or
           suggestions from our services.
         </p>
+        <div className="primary-subheading-termPage">
+          <b>No Guarantees.</b>
+        </div>
+        <p>
+          {' '}
+          My role and services is to support and assist you in reaching your own
+          goals, but your success depends primarily on your own effort,
+          motivation, commitment and follow-through. I cannot predict and I do
+          not guarantee that you will attain a particular result, and you accept
+          and understand that results differ for each individual. Each
+          individual’s results depend on his or her unique background,
+          dedication, desire, motivation, actions, and numerous other factors.
+          You fully agree that there are no guarantees as to the specific
+          outcome or results you can expect from using the information you
+          receive on or through this Service.
+        </p>
       </div>
       <Footer />
     </div>
