@@ -1,0 +1,15 @@
+.primary-heading-termPage {
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+.termPage-primary-text {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  /* max-width: 500px; */
+  color: #000000;
+  margin: 10px;
+}

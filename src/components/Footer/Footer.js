@@ -21,34 +21,17 @@ const Footer = () => {
         </div> */}
       </div>
       <div className="footer-section-two">
-        <div className="footer-section-columns">
-          <p>
-            <b>Medical Disclaimer:</b> The information provided is not intended
-            to replace medical advice. I am not a Medical Provider (Physician,
-            Psychiatrist, Nurse Practitioner, etc.). You agree and acknowledge
-            that I am not providing health care, medical or nutritional therapy
-            services, or attempting to diagnose, treat, prevent or cure any
-            physical, mental or emotional issue, disease or condition.
-          </p>{' '}
-          <br />
-          <p>
-            Always seek the advice of your own Medical Provider and/or Mental
-            Health Provider regarding any questions or concerns you have about
-            your specific health or any medications, herbs or supplements you
-            are currently taking and before implementing any recommendations or
-            suggestions from our services.
-          </p>
-        </div>
         {/* <div className="footer-section-columns">
           <span>244-5333-7783</span>
           <span>hello@food.com</span>
           <span>press@food.com</span>
           <span>contact@food.com</span>
         </div> */}
-        {/* <div className="footer-section-columns">
+        <div className="footer-section-columns">
+          <span>About</span>
+          <span>Contact</span>
           <span>Terms & Conditions</span>
-          <span>Privacy Policy</span>
-        </div> */}
+        </div>
       </div>
     </div>
   );

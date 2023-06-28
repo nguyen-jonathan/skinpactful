@@ -29,7 +29,7 @@
 .footer-section-columns {
   display: flex;
   flex-direction: column;
-  min-width: 500px;
+  max-width: 200px;
 }
 .footer-section-columns span {
   margin: 0.25rem 0rem;
