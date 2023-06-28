@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import './AppointmentForm.css';
 
 const AppointmentForm = () => {
   const [name, setName] = useState('');

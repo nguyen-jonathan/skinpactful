@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Logo from './skinpactful_logo.png';
+import Logo from './skinpactful_logo_white.png';
 // import {BsCart2} from 'react-icons/bs';
 import {IconContext} from 'react-icons';
 import {HiOutlineBars3} from 'react-icons/hi2';
@@ -41,18 +41,25 @@ const NavigationBar = () => {
     <nav>
       <div className="navbar-container">
         <div className="nav-logo-container">
-          <img src={Logo} alt="" />
+          <center>
+            <img src={Logo} alt="" />
+          </center>
         </div>
         <div className="navbar-links-container">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <a href="/contact">Contact</a>
 
-          <button className="primary-button">Schedule Now</button>
+          <Link
+            to="https://calendly.com/skinpactful/consultation" //need to change to tommy's calender link
+            target="_blank"
+            rel="noopener noreferrer">
+            <button className="primary-button">Schedule Now</button>
+          </Link>
         </div>
       </div>
       <div className="navbar-menu-container">
-        <IconContext.Provider value={{color: 'white', size: '50px'}}>
+        <IconContext.Provider value={{color: 'black', size: '50px'}}>
           <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
         </IconContext.Provider>
       </div>
