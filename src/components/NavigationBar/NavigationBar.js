@@ -14,6 +14,7 @@ import ListItemText from '@mui/material/ListItemText';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 import PhoneRoundedIcon from '@mui/icons-material/PhoneRounded';
+import EditCalendarIcon from '@mui/icons-material/EditCalendar';
 import {Link} from 'react-router-dom';
 // import {Routes, Route, Link} from 'react-router-dom';
 // // import HomePage from '../HomePage/HomePage';
@@ -26,6 +27,7 @@ const NavigationBar = () => {
     {
       text: 'Home',
       icon: <HomeIcon />,
+      path: '/',
     },
     {
       text: 'About',
@@ -35,6 +37,12 @@ const NavigationBar = () => {
     {
       text: 'Contact',
       icon: <PhoneRoundedIcon />,
+      path: '/contact',
+    },
+    {
+      text: 'Schedule Now',
+      icon: <EditCalendarIcon />,
+      path: 'https://calendly.com/skinpactful/consultation',
     },
   ];
   return (
