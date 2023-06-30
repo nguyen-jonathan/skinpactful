@@ -1,5 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/skinpactful/public_html/
-    - cp index.html $DEPLOYPATH
-    - cp -r ./src $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
