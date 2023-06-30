@@ -1,5 +1,5 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nctests/git.nctest.info/
+    - export DEPLOYPATH=/home/skinpactful/public_html/
     - cp index.html $DEPLOYPATH
     - cp -r ./src $DEPLOYPATH
