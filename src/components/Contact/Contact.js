@@ -10,6 +10,8 @@ const Contact = () => {
       <div className="contact-section-text-container">
         <img src={lotionStock} alt="" />
         <br />
+        <br />
+        <br />
         <Link
           to="https://calendly.com/skinpactful/consultation"
           target="_blank"
@@ -18,6 +20,7 @@ const Contact = () => {
             Schedule a Free Consultation
           </button>
         </Link>
+        <br />
         <br />
         <h2>Find us at our social media outlets</h2>
       </div>

@@ -1,6 +1,7 @@
 .home-container {
+  margin-top: 50px;
   position: relative;
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 .home-banner-container {

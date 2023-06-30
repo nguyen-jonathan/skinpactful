@@ -9,9 +9,6 @@ const HomePage = () => {
     <div className="home-container">
       {/* <NavigationBar /> */}
       <div className="home-banner-container">
-        <div className="home-bannerImage-container">
-          {/* <img src={HomeBG} alt="" /> */}
-        </div>
         <div className="home-text-section">
           <h1 className="home-primary-heading">Virtual 1-on-1 Sessions</h1>
           <p className="primary-text">
@@ -29,6 +26,8 @@ const HomePage = () => {
             <br />
             <h3>Don’t let bad skin negatively impact your life.</h3>
           </p>
+          <br />
+          <br />
           <Link
             to="https://calendly.com/skinpactful/consultation"
             target="_blank"
