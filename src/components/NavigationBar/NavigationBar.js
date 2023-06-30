@@ -50,7 +50,7 @@ const NavigationBar = () => {
       <div className="navbar-container">
         <div className="nav-logo-container">
           <center>
-            <img src={Logo} alt="" />
+            <img id="logoPic" src={Logo} alt="" />
           </center>
         </div>
         <div className="navbar-links-container">

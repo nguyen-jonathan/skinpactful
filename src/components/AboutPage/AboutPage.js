@@ -14,7 +14,7 @@ const AboutPage = () => {
         <img src={} alt="" />
       </div> */}
 
-      <h1 className="primary-heading-page">Thomas Nguyen</h1>
+      <h1 className="primary-heading-page">About Thomas Nguyen</h1>
       <div className="aboutPage-section-image-container">
         <img id="thomasAboutPage" src={Profile} alt="" />
       </div>
