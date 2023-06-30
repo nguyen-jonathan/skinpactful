@@ -1,13 +1,10 @@
 import React from 'react';
-import NavigationBar from '../NavigationBar/NavigationBar';
-import Footer from '../Footer/Footer';
 import SocialMediaLinks from '../SocialMediaLinks/SocialMediaLinks';
-import './ContactPage.css';
+import './Contact.css';
 
-const ContactPage = () => {
+const Contact = () => {
   return (
     <div>
-      <NavigationBar />
       <div className="contactPage-section-text-container">
         <h1 className="primary-heading-contact">Contact us</h1>
         <br />
@@ -16,10 +13,8 @@ const ContactPage = () => {
         <h2>Find us at our social media outlets</h2>
       </div>
       <SocialMediaLinks />
-
-      <Footer />
     </div>
   );
 };
 
-export default ContactPage;
+export default Contact;
