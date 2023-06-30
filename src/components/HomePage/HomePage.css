@@ -1,16 +1,31 @@
-.App {
-  text-align: center;
+.home-container {
+  margin-top: 50px;
+  position: relative;
+  /* display: flex; */
+  align-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100px;
+.home-banner-container {
+  position: relative;
+  display: flex;
+  padding-top: 3rem;
+}
+.home-bannerImage-container {
+  position: absolute;
+  top: -100px;
+  right: -170px;
+  z-index: -2;
+  max-width: 700px;
+}
+.home-image-section {
+  max-width: 600px;
+  flex: 1;
+}
+.home-text-section {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* align-items: flex-start; */
 }
 
 @keyframes App-logo-spin {

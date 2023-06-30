@@ -1,0 +1,10 @@
+.contact-section-text-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+.primary-heading-contact {
+  font-size: clamp(2rem, 3vw, 4rem);
+}

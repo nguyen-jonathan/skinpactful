@@ -1,25 +1,30 @@
 import React from 'react';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import NavigationBar from '../NavigationBar/NavigationBar';
-import Footer from '../Footer/Footer';
+import lotionStock from './lotionStock.jpeg';
+import {Link} from 'react-router-dom';
+import SocialMediaLinks from '../SocialMediaLinks/SocialMediaLinks';
 import './Contact.css';
 
 const Contact = () => {
   return (
     <div>
-      <NavigationBar />
-      {/* <h1 className="primary-heading">Have Question In Mind?</h1>
-      <h1 className="primary-heading">Let Us Help You</h1> */}
-      <h1>Email: skinpactfulcoaching@gmail.com</h1>
-      <h1 className="primary-heading">
-        <InstagramIcon />
-        Instagram
-      </h1>
-      <div className="contact-form-container">
-        <input type="text" placeholder="yourmail@gmail.com" />
-        <button className="secondary-button">Submit</button>
+      <div className="contact-section-text-container">
+        <img src={lotionStock} alt="" />
+        <br />
+        <br />
+        <br />
+        <Link
+          to="https://calendly.com/skinpactful/consultation"
+          target="_blank"
+          rel="noopener noreferrer">
+          <button className="secondary-button">
+            Schedule a Free Consultation
+          </button>
+        </Link>
+        <br />
+        <br />
+        <h2>Find us at our social media outlets</h2>
       </div>
-      <Footer />
+      <SocialMediaLinks />
     </div>
   );
 };
