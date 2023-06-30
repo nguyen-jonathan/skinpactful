@@ -227,25 +227,6 @@ nav {
     /* justify-content: center; */
     flex-basis: 100%;
   }
-  .aboutPage-section-container {
-    flex-basis: 100%;
-  }
-  .aboutPage-section-text-container,
-  .aboutPage-section-image-container {
-    flex-basis: 100%;
-  }
-  .aboutPage-section-image-container2 {
-    order: 1;
-  }
-  .aboutPage-section-image-container3 {
-    order: 4;
-  }
-  .aboutPage-section-text-container1 {
-    order: 2;
-  }
-  .aboutPage-section-text-container4 {
-    order: 3;
-  }
   .about-section-container {
     flex-direction: column;
   }

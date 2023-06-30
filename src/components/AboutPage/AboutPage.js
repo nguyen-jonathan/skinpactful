@@ -1,5 +1,4 @@
 import React from 'react';
-// import {BsFillPlayCircleFill} from 'react-icons/bs';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import Footer from '../Footer/Footer';
 import Profile from './thomasnguyen.jpg';
@@ -25,7 +24,7 @@ const AboutPage = () => {
               public and constantly looking in a mirror throughout the day,
               hoping it would magically get better. After a while I got tired of
               this insecurity of mine and decided to dedicate myself to curing
-              this disorder.{' '}
+              this disorder.
             </p>
             <p className="aboutPage-primary-text">
               I have researched and tested dozens of products, spoke with skin
@@ -38,16 +37,10 @@ const AboutPage = () => {
           </div>
           <div className="aboutPage-section-image-container3">
             <img id="creamImg" src={CreamStock} alt="" />
-            <br />
-            <br />
           </div>
           <div className="aboutPage-section-image-container2">
             <img id="thomasAboutPage" src={Profile} alt="" />
           </div>
-          <br />
-          <br />
-          <br />
-          <br />
           <div className="aboutPage-section-text-container4">
             <p className="aboutPage-primary-text">
               Now here we are, I want to help you do the same and share my
@@ -59,6 +52,8 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
+        <br />
+        <br />
         <br />
         <br />
         <div className="aboutPage-secondary-button">
