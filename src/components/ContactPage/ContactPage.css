@@ -11,3 +11,8 @@
 .contactPage-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
 }
+.contactPage-image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
