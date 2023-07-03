@@ -15,7 +15,7 @@ const HomePage = () => {
             Through virtual sessions in the comfort of your own home, we can
             discover what exactly your unique skin needs. With the right
             skincare regime, diet, and daily habits you can notice a significant
-            different in 2-3 weeks.
+            difference in 2-3 weeks.
             <br />
             <br />
             <h2>Free Consultation</h2>
