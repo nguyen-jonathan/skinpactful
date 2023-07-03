@@ -38,7 +38,7 @@ const HomePage = () => {
           </Link>
         </div>
         <div className="home-image-section">
-          <img src={HomeBG} alt="" />
+          <img src={HomeBG} id="HomeBGImg" alt="" />
         </div>
       </div>
     </div>

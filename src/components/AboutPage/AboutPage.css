@@ -10,8 +10,9 @@
   align-items: center;
 }
 .aboutPage-section-container {
+  justify-content: center;
   display: flex;
-  padding-top: 50px;
+  margin-top: 50px;
   flex-direction: column;
   align-items: center;
 }
@@ -20,14 +21,25 @@
   align-items: center;
   justify-content: center;
   font-size: clamp(1rem, 3vw, 1.5rem);
-  max-width: 600px;
+  max-width: 400px;
   color: #000000;
   margin: 1.5rem 0rem;
+}
+.aboutPage-content1 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+.aboutPage-content2 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
 }
 .aboutPage-section-text-container1 {
   order: 1;
   flex-basis: 50%;
-  padding-left: 150px;
 }
 .aboutPage-section-image-container2 {
   order: 2;
@@ -37,11 +49,11 @@
 .aboutPage-section-image-container3 {
   order: 3;
   flex-basis: 50%;
-  padding-left: 200px;
 }
 .aboutPage-section-text-container4 {
   order: 4;
   flex-basis: 50%;
+  padding-left: 100px;
 }
 .aboutPage-secondary-button {
   align-items: center;
@@ -54,36 +66,60 @@
 #thomasAboutPage {
   max-width: 350px;
 }
-@media (max-width: 800px) {
+@media (max-width: 400px) {
+  #creamImg,
+  #thomasAboutPage {
+    max-width: 100%;
+  }
+  .aboutPage-primary-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    max-width: 350px;
+    color: #000000;
+    margin: 1.5rem 0rem;
+  }
   .aboutPage-content-container {
+    flex-direction: column;
+  }
+  .aboutPage-section-container {
+    margin-top: 20px; /* Adjust the margin-top value as per your needs */
+  }
+  .aboutPage-content1,
+  .aboutPage-content2 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px; /* Adjust the margin-top value as per your needs */
+  }
+  .aboutPage-section-image-container2 {
+    padding: 0; /* Remove the left padding */
+  }
+  .aboutPage-section-text-container4 {
+    padding: 0; /* Remove the left padding */
+  }
+  /* .aboutPage-content1,
+  .aboutPage-content2 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
-  }
+  } */
   .aboutPage-section-image-container2 {
     order: 1;
-    justify-content: center;
-    align-items: center;
     padding: 0;
   }
   .aboutPage-section-image-container3 {
     order: 4;
-    justify-content: center;
-    align-items: center;
     padding: 0;
+    max-width: 60%;
   }
   .aboutPage-section-text-container1 {
     order: 2;
-    justify-content: center;
-    align-items: center;
     padding: 0;
-    margin-left: 5px;
   }
   .aboutPage-section-text-container4 {
     order: 3;
-    justify-content: center;
-    align-items: center;
     padding: 0px;
   }
 }

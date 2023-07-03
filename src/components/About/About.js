@@ -25,9 +25,6 @@ const About = () => {
           <button className="secondary-button">
             <Link to="/about">Learn More</Link>
           </button>
-          {/* <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Watch Video
-          </button> */}
         </div>
       </div>
     </div>

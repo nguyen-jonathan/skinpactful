@@ -9,7 +9,7 @@
   /* align-items: center; */
   /* justify-content: center; */
   font-size: clamp(1rem, 3vw, 1.5rem);
-  /* max-width: 500px; */
+  max-width: 1000px;
   color: #000000;
   margin: 10px;
 }

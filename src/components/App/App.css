@@ -181,11 +181,8 @@ nav {
   .primary-button {
     font-size: 1rem;
   }
-  .home-bannerImage-container {
-    max-width: 600px;
-  }
 }
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   nav {
     display: flex;
     align-items: center;
@@ -206,19 +203,27 @@ nav {
     min-width: 200px;
     height: auto;
   }
+  #lotionStockImg,
+  #HomeBGImg,
+  #ContactBottleImg {
+    max-width: 75%;
+  }
+  .contact-subheading,
+  .contactPage-subheading {
+    text-align: center;
+    max-width: 50%;
+  }
   .nav-logo-container {
-    max-width: 200px;
+    max-width: 100%;
     justify-content: center;
-    padding-left: 35px;
+    padding-left: 100px;
   }
   .navbar-links-container {
     display: none;
   }
   .navbar-menu-container {
     display: flex;
-  }
-  .home-bannerImage-container {
-    max-width: 450px;
+    margin-right: 15%;
   }
   .home-banner-container,
   .about-section-container {
@@ -243,10 +248,9 @@ nav {
     max-width: 90%;
   }
   .primary-text,
-  .home-primary-heading,
-  .aboutPage-primary-text {
+  .home-primary-heading {
     text-align: center;
-    max-width: 80%;
+    max-width: 70%;
   }
   .home-text-section,
   .about-section-text-container {
@@ -274,6 +278,7 @@ nav {
   }
   .footer-wrapper {
     flex-direction: column;
+    margin: 5%;
   }
   .footer-section-two {
     flex-direction: column;
@@ -286,9 +291,15 @@ nav {
     max-width: 95vw;
     padding: 50px;
   }
+  .termPage-primary-text {
+    text-align: center;
+    padding-left: 70px;
+  }
+  .contactPage-image-section {
+    max-width: 100%;
+  }
 }
 @media (max-width: 600px) {
-  .home-bannerImage-container,
   .about-background-image-container {
     display: none;
   }
