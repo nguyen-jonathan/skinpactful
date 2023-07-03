@@ -181,6 +181,121 @@ nav {
   .primary-button {
     font-size: 1rem;
   }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90px;
+  }
+  #thomasProfile {
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #thomasAboutPage {
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #logoPic {
+    min-width: 200px;
+    height: auto;
+  }
+  #lotionStockImg,
+  #HomeBGImg,
+  #ContactBottleImg {
+    max-width: 75%;
+  }
+  .contact-subheading,
+  .contactPage-subheading {
+    text-align: center;
+    max-width: 50%;
+  }
+  .nav-logo-container {
+    max-width: 100%;
+    justify-content: center;
+    padding-left: 100px;
+  }
+  .navbar-links-container {
+    display: none;
+  }
+  .navbar-menu-container {
+    display: flex;
+    margin-right: 15%;
+  }
+  .home-banner-container,
+  .about-section-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    /* justify-content: center; */
+    flex-basis: 100%;
+  }
+  .about-section-container {
+    flex-direction: column;
+  }
+  .home-image-section,
+  .about-section-image-container {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .primary-heading {
+    text-align: center;
+    max-width: 90%;
+  }
+  .primary-text,
+  .home-primary-heading {
+    text-align: center;
+    max-width: 70%;
+  }
+  .home-text-section,
+  .about-section-text-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  }
+  .secondary-button {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+  }
+  .about-section-container {
+    margin-top: 5rem !important;
+  }
+  .about-buttons-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .primary-subheading {
+    text-align: center;
+  }
+  .about-section-image-container {
+    margin-right: 0rem !important;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+    margin: 5%;
+  }
+  .footer-section-two {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .footer-section-columns {
+    margin: 1rem 0rem;
+  }
+  .App {
+    max-width: 95vw;
+    padding: 50px;
+  }
+  .termPage-primary-text {
+    text-align: center;
+    padding-left: 70px;
+  }
+  .contactPage-image-section {
+    max-width: 100%;
+  }
 }
 @media (max-width: 400px) {
   nav {
