@@ -66,6 +66,64 @@
 #thomasAboutPage {
   max-width: 350px;
 }
+@media (max-width: 1000px) {
+  #creamImg,
+  #thomasAboutPage {
+    max-width: 100%;
+  }
+  .aboutPage-primary-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    max-width: 350px;
+    color: #000000;
+    margin: 1.5rem 0rem;
+  }
+  .aboutPage-content-container {
+    flex-direction: column;
+  }
+  .aboutPage-section-container {
+    margin-top: 20px; /* Adjust the margin-top value as per your needs */
+  }
+  .aboutPage-content1,
+  .aboutPage-content2 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px; /* Adjust the margin-top value as per your needs */
+  }
+  .aboutPage-section-image-container2 {
+    padding: 0; /* Remove the left padding */
+  }
+  .aboutPage-section-text-container4 {
+    padding: 0; /* Remove the left padding */
+  }
+  /* .aboutPage-content1,
+  .aboutPage-content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  } */
+  .aboutPage-section-image-container2 {
+    order: 1;
+    padding: 0;
+  }
+  .aboutPage-section-image-container3 {
+    order: 4;
+    padding: 0;
+    max-width: 60%;
+  }
+  .aboutPage-section-text-container1 {
+    order: 2;
+    padding: 0;
+  }
+  .aboutPage-section-text-container4 {
+    order: 3;
+    padding: 0px;
+  }
+}
+
 @media (max-width: 400px) {
   #creamImg,
   #thomasAboutPage {
