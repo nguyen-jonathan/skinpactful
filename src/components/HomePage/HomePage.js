@@ -12,10 +12,10 @@ const HomePage = () => {
         <div className="home-text-section">
           <h1 className="home-primary-heading">Virtual 1-on-1 Sessions</h1>
           <p className="primary-text">
-            Someone who’s done and seen it all, from cystic to hormonal acne.
             Through virtual sessions in the comfort of your own home, we can
-            discover what exactly your unique skin needs. Everyone is different,
-            each session will be personal and specific for each individual.
+            discover what exactly your unique skin needs. With the right
+            skincare regime, diet, and daily habits you can notice a significant
+            different in 2-3 weeks.
             <br />
             <br />
             <h2>Free Consultation</h2>
