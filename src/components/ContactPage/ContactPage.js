@@ -7,7 +7,7 @@ import './ContactPage.css';
 
 const ContactPage = () => {
   return (
-    <div>
+    <div className="app">
       <NavigationBar />
       <div className="contactPage-section-text-container">
         <h1 className="primary-heading-contact">Contact us</h1>

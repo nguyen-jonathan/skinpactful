@@ -8,13 +8,13 @@ import './AboutPage.css';
 
 const AboutPage = () => {
   return (
-    <div>
+    <div className="app">
       <NavigationBar />
       {/* <div className="about-background-image-container">
         <img src={} alt="" />
       </div> */}
       <div className="aboutPage-section-container">
-        <h1 className="primary-heading-aboutPage">About Thomas Nguyen</h1>
+        <h1 className="primary-heading-aboutPage">Meet your skin coach</h1>
         <div className="aboutPage-content-container">
           <div className="aboutPage-section-text-container1">
             <p className="aboutPage-primary-text">

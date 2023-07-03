@@ -6,7 +6,7 @@ import './TermsConditions.css';
 
 const TermsConditions = () => {
   return (
-    <div>
+    <div className="app">
       <NavigationBar />
       <h1 className="primary-heading-termPage">
         <b>Medical Disclaimer</b>
@@ -19,7 +19,7 @@ const TermsConditions = () => {
           health care, medical or nutritional therapy services, or attempting to
           diagnose, treat, prevent or cure any physical, mental or emotional
           issue, disease or condition.
-        </p>{' '}
+        </p>
         <br />
         <p>
           Always seek the advice of your own Medical Provider and/or Mental
@@ -32,7 +32,6 @@ const TermsConditions = () => {
           <b>No Guarantees.</b>
         </div>
         <p>
-          {' '}
           My role and services is to support and assist you in reaching your own
           goals, but your success depends primarily on your own effort,
           motivation, commitment and follow-through. I cannot predict and I do
