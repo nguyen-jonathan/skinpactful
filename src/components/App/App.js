@@ -4,10 +4,6 @@ import Footer from '../Footer/Footer';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import NavigationBar from '../NavigationBar/NavigationBar';
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import HomePage from '../HomePage/HomePage';
-// import AboutPage from '../AboutPage/AboutPage';
-// import AppointmentForm from '../AppointmentForm/AppointmentForm';
 import './App.css';
 
 const App = () => {

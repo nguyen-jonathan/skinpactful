@@ -56,7 +56,7 @@ const NavigationBar = () => {
         <div className="navbar-links-container">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
-          <a href="/contact">Contact</a>
+          <Link to="/contact">Contact</Link>
 
           <Link
             to="https://calendly.com/skinpactful/consultation" //need to change to tommy's calender link

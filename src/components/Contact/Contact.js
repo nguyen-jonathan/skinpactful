@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div>
       <div className="contact-section-text-container">
-        <img src={lotionStock} alt="" />
+        <img src={lotionStock} id="lotionStockImg" alt="" />
         <br />
         <br />
         <br />
@@ -22,7 +22,9 @@ const Contact = () => {
         </Link>
         <br />
         <br />
-        <h2>Find us at our social media outlets</h2>
+        <h2 className="contact-subheading">
+          Find us at our social media outlets
+        </h2>
       </div>
       <SocialMediaLinks />
     </div>

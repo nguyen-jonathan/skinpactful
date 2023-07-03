@@ -13,20 +13,7 @@ const Footer = () => {
       <div className="footer-logo-container">
         <img id="logo2" src={Logo} alt="" />
       </div>
-      {/* <div className="footer-icons">
-          <BsTwitter />
-          <SiLinkedin />
-          <BsYoutube />
-          <FaFacebookF />
-        </div> */}
-
       <div className="footer-section-two">
-        {/* <div className="footer-section-columns">
-          <span>244-5333-7783</span>
-          <span>hello@food.com</span>
-          <span>press@food.com</span>
-          <span>contact@food.com</span>
-        </div> */}
         <div className="footer-section-columns">
           <span>
             <Link to="/about" className="noUnderline">
